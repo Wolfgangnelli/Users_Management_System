@@ -1,0 +1,77 @@
+body {
+  font-family: "Noto Sans", Georgia, sans-serif;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.table thead th.ASC::after,
+.table thead th.DESC::after {
+  content: "↑";
+  color: red;
+  font-weight: bold;
+  padding: 3px;
+}
+.table thead th.DESC::after {
+  content: "↓";
+}
+
+.thumbnail {
+  position: relative;
+  z-index: 0;
+}
+
+.thumbnail:hover {
+  background-color: transparent;
+  z-index: 50;
+}
+
+.thumbnail span {
+  /*CSS for enlarged image*/
+  position: absolute;
+  padding: 5px;
+  left: 0px;
+  visibility: hidden;
+  color: black;
+  text-decoration: none;
+}
+
+.thumbnail span img {
+  border-width: 0;
+  padding: 2px;
+}
+
+.thumbnail:hover span {
+  visibility: visible;
+  top: 10px;
+  left: 60px;
+}
