@@ -11,7 +11,7 @@ if (stristr($maxUpload, 'G')) {
 return [
     'mysql_host' => 'localhost',
     'mysql_user' => 'root',
-    'mysql_password' => 'marmittone1912',
+    'mysql_password' => '**************',
     'mysql_db' => 'corsophp',
     'recordsPerPage' => 10,
     'recordsPerPageOptions' => [
